@@ -106,7 +106,7 @@
             <h3>Software Engineer at SentriLock</h3>
             <p>Sep 2022 - Present (1 year 3 months)</p>
             <ul>
-                <li>Developed full-stack mobile and web applications using Flutter/Dart, Native Android and iOS,
+                <li>Developed full-stack mobile and web applications using Flutter/Dart, Native Android,
                     Angular, Node.js, SQL, TDD, GCP, and Cloud Firestore.</li>
                 <li>Specialized in Flutter/Dart development of Geofencing and Bluetooth Low Energy (BLE) for
                     time-sensitive operations.</li>
@@ -153,23 +153,24 @@
     <section>
         <h2>Skills</h2>
         <ul>
-            <li>Programming Languages: Angular, Flutter, Object-Oriented Programming (OOP)</li>
+            <li>Programming Languages: JavaScript, Dart, Kotlin, C, C++, Object-Oriented Programming (OOP)</li>
             <li>Development Practices: Test-Driven Development (TDD), Integration and Continuous Delivery (CI/CD)</li>
-            <li>Team Leadership</li>
-            <li>Web Technologies: Node.js, SQL</li>
-            <li>Mobile Development: Android Development</li>
+            <li>Web Technologies: Node.js, Angular</li>
+            <li>Mobile Development: Flutter, Android</li>
             <li>Cloud Platform: Google Cloud Platform (GCP)</li>
+            <li>Team Leadership</li>
+            <li>Mentorship</li>
         </ul>
     </section>
 
-    <section>
+    <!-- <section>
         <h2>Projects</h2>
         <ul>
             <li><strong>Project 1:</strong> Brief description of project 1.</li>
             <li><strong>Project 2:</strong> Brief description of project 2.</li>
             <!-- Add more projects as needed -->
         </ul>
-    </section>
+    </section> -->
 
     <footer>
         <p>&copy; 2023 Raudel Valdes. All
