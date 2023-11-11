@@ -28,33 +28,6 @@
             margin-bottom: 1em;
         }
 
-        <!-- .hero {
-            background-image: url('https://veriday.com/wp-content/uploads/2017/10/ThinkstockPhotos-629285904.jpg'); /* Add your own tech-themed image URL */
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            text-align: center;
-            padding: 5em 0;
-            position: relative;
-        }
-
-        .hero h1 {
-            background-color: rgba(211,211,211,.5);
-            font-size: 3em;
-            margin-bottom: 0.5em;
-            opacity: 0;
-            animation: fadeInUp 1.5s forwards 0.5s;
-        } -->
-
-        .hero p {
-            background-color: rgba(211,211,211,.5);
-            font-size: 1.5em;
-            margin-bottom: 1em;
-            opacity: 0;
-            animation: fadeInUp 1.5s forwards 1s;
-            font-weight: bold;
-        }
-
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -162,15 +135,6 @@
             <li>Mentorship</li>
         </ul>
     </section>
-
-    <!-- <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Project 1:</strong> Brief description of project 1.</li>
-            <li><strong>Project 2:</strong> Brief description of project 2.</li>
-            <!-- Add more projects as needed -->
-        </ul>
-    </section> -->
 
     <footer>
         <p>&copy; 2023 Raudel Valdes. All
