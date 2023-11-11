@@ -40,6 +40,7 @@
         }
 
         .hero h1 {
+            background-color: rgba(211,211,211,.5);
             font-size: 3em;
             margin-bottom: 0.5em;
             opacity: 0;
@@ -47,6 +48,7 @@
         }
 
         .hero p {
+            background-color: rgba(211,211,211,.5);
             font-size: 1.5em;
             margin-bottom: 1em;
             opacity: 0;
