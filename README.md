@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,18 +10,27 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #272727; /* Dark background color */
+            color: #fff;
         }
 
         header {
-            background-color: #333;
+            background-color: #1a1a1a; /* Darker header background color */
             color: #fff;
             text-align: center;
             padding: 2em;
         }
 
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1em;
+        }
+
         .hero {
-            background-image: url('https://media.licdn.com/dms/image/C4E03AQGN_89WzlqB4Q/profile-displayphoto-shrink_400_400/0/1599837504183?e=1704931200&v=beta&t=f0U5cZe5yKR5U47x-dJerfiBsz3VtNHz7S9ivvV8YQk');
+            background-image: url('https://veriday.com/wp-content/uploads/2017/10/ThinkstockPhotos-629285904.jpg'); /* Add your own tech-themed image URL */
             background-size: cover;
             background-position: center;
             color: #fff;
@@ -32,34 +42,50 @@
         .hero h1 {
             font-size: 3em;
             margin-bottom: 0.5em;
+            opacity: 0;
+            animation: fadeInUp 1.5s forwards 0.5s;
         }
 
         .hero p {
             font-size: 1.5em;
             margin-bottom: 1em;
+            opacity: 0;
+            animation: fadeInUp 1.5s forwards 1s;
+            font-weight: bold;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         section {
             max-width: 800px;
             margin: 2em auto;
             padding: 1em;
-            background-color: #fff;
+            background-color: #1a1a1a; /* Darker section background color */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Add your own additional styling here */
-        /* ... */
     </style>
 </head>
 
 <body>
     <header>
+        <img src="https://media.licdn.com/dms/image/C4E03AQGN_89WzlqB4Q/profile-displayphoto-shrink_400_400/0/1599837504183?e=1704931200&v=beta&t=f0U5cZe5yKR5U47x-dJerfiBsz3VtNHz7S9ivvV8YQk" alt="Profile Picture">
         <h1>Raudel Valdes</h1>
-        <p>Software Engineer</p>
+        <p>Experienced Software Engineer</p>
     </header>
 
     <div class="hero">
-        <h1>Welcome to My World</h1>
+        <h1>Welcome to My Coding World</h1>
         <p>Experienced Software Engineer passionate about creating innovative solutions</p>
     </div>
 
@@ -145,8 +171,4 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Raudel Valdes. All rights reserved.</p>
-    </footer>
-</body>
-
-</html>
+        <p>&copy; 2023 Raudel Valdes. All
