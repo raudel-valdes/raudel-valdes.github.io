@@ -28,7 +28,7 @@
             margin-bottom: 1em;
         }
 
-        .hero {
+        <!-- .hero {
             background-image: url('https://veriday.com/wp-content/uploads/2017/10/ThinkstockPhotos-629285904.jpg'); /* Add your own tech-themed image URL */
             background-size: cover;
             background-position: center;
@@ -44,7 +44,7 @@
             margin-bottom: 0.5em;
             opacity: 0;
             animation: fadeInUp 1.5s forwards 0.5s;
-        }
+        } -->
 
         .hero p {
             background-color: rgba(211,211,211,.5);
@@ -85,10 +85,10 @@
         <p>Experienced Software Engineer</p>
     </header>
 
-    <div class="hero">
+    <!-- <div class="hero">
         <h1>Welcome to My Coding World</h1>
         <p>Experienced Software Engineer passionate about creating innovative solutions</p>
-    </div>
+    </div> -->
 
     <section>
         <h2>About Me</h2>
