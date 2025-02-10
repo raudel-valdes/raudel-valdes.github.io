@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +8,15 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #272727; /* Dark background color */
+            background-color: #272727;
             color: #fff;
         }
-
         header {
             background-color: #1a1a1a; /* Darker header background color */
             color: #fff;
             text-align: center;
             padding: 2em;
         }
-
         header img {
             border-radius: 50%;
             width: 150px;
@@ -27,19 +24,6 @@
             object-fit: cover;
             margin-bottom: 1em;
         }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
         section {
             max-width: 800px;
             margin: 2em auto;
@@ -47,22 +31,33 @@
             background-color: #1a1a1a; /* Darker section background color */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
     </style>
+    <script>
+        function calculateJobDuration(startDate) {
+            let start = new Date(startDate);
+            let now = new Date();
+            let years = now.getFullYear() - start.getFullYear();
+            let months = now.getMonth() - start.getMonth();
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+            return `${years} year${years !== 1 ? 's' : ''} ${months} month${months !== 1 ? 's' : ''}`;
+        }
+        
+        function updateJobDuration() {
+            document.getElementById("job-duration").innerText = `Sep 2022 - Present (${calculateJobDuration('2022-09-01')})`;
+        }
+        
+        window.onload = updateJobDuration;
+    </script>
 </head>
-
 <body>
     <header>
         <img src="https://media.licdn.com/dms/image/C4E03AQGN_89WzlqB4Q/profile-displayphoto-shrink_400_400/0/1599837504183?e=1704931200&v=beta&t=f0U5cZe5yKR5U47x-dJerfiBsz3VtNHz7S9ivvV8YQk" alt="Profile Picture">
         <h1>Raudel Valdes</h1>
         <p>Experienced Software Engineer</p>
     </header>
-
-    <!-- <div class="hero">
-        <h1>Welcome to My Coding World</h1>
-        <p>Experienced Software Engineer passionate about creating innovative solutions</p>
-    </div> -->
-
     <section>
         <h2>About Me</h2>
         <p>
@@ -72,24 +67,19 @@
             Science in Computer Engineering from the University of Louisville.
         </p>
     </section>
-
     <section>
         <h2>Experience</h2>
         <div>
             <h3>Software Engineer at SentriLock</h3>
-            <p>Sep 2022 - Present (1 year 3 months)</p>
+            <p id="job-duration"></p>
             <ul>
-                <li>Developed full-stack mobile and web applications using Flutter/Dart, Native Android,
-                    Angular, Node.js, SQL, TDD, GCP, and Cloud Firestore.</li>
-                <li>Specialized in Flutter/Dart development of Geofencing and Bluetooth Low Energy (BLE) for
-                    time-sensitive operations.</li>
-                <li>Implemented and maintained TDD and Continuous Development (CI / CD) pipelines for software releases,
-                    playing a crucial role during emergency releases.</li>
+                <li>Developed full-stack mobile and web applications using Flutter/Dart, Native Android, Angular, Node.js, SQL, TDD, GCP, and Cloud Firestore.</li>
+                <li>Specialized in Flutter/Dart development of Geofencing and Bluetooth Low Energy (BLE) for time-sensitive operations.</li>
+                <li>Implemented and maintained TDD and Continuous Development (CI / CD) pipelines for software releases.</li>
                 <li>Developed and maintained microservices for loosely decoupling service dependencies.</li>
             </ul>
             <p>Notable Apps: SentriConnect, SentriKey Access, SentriKey Real Estate</p>
         </div>
-
         <div>
             <h3>Computer Engineer at GE Appliances</h3>
             <p>Aug 2021 - Sep 2022 (1 year 2 months)</p>
@@ -101,7 +91,6 @@
                     LCD screen.</li>
             </ul>
         </div>
-
         <div>
             <h3>Application Developer at UPS</h3>
             <p>Jan 2020 - Aug 2021 (1 year 8 months)</p>
@@ -114,7 +103,6 @@
             </ul>
         </div>
     </section>
-
     <section>
         <h2>Education</h2>
         <p>
@@ -122,7 +110,6 @@
             Bachelor of Science - BS, Computer Engineering (2015 - 2020)
         </p>
     </section>
-
     <section>
         <h2>Skills</h2>
         <ul>
@@ -135,6 +122,5 @@
             <li>Mentorship</li>
         </ul>
     </section>
-
     <footer>
         <p>&copy; 2023 Raudel Valdes. All
