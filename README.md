@@ -23,6 +23,9 @@
             height: 150px;
             object-fit: cover;
             margin-bottom: 1em;
+            pointer-events: none;
+            user-drag: none;
+            -webkit-user-drag: none;
         }
         section {
             max-width: 800px;
@@ -54,7 +57,7 @@
 </head>
 <body>
     <header>
-        <img src="https://avatars.githubusercontent.com/u/35740589?s=400&u=5b012e7773313b502e47b6e6a95e159da78bc350&v=4" alt="Profile Picture">
+        <img src="assets/profile.jpeg" alt="Profile Picture" draggable="false">
         <h1>Raudel Valdes</h1>
         <p>Experienced Software Engineer</p>
     </header>
