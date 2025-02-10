@@ -54,7 +54,7 @@
 </head>
 <body>
     <header>
-        <img src="https://media.licdn.com/dms/image/C4E03AQGN_89WzlqB4Q/profile-displayphoto-shrink_400_400/0/1599837504183?e=1704931200&v=beta&t=f0U5cZe5yKR5U47x-dJerfiBsz3VtNHz7S9ivvV8YQk" alt="Profile Picture">
+        <img src="https://avatars.githubusercontent.com/u/35740589?s=400&u=5b012e7773313b502e47b6e6a95e159da78bc350&v=4" alt="Profile Picture">
         <h1>Raudel Valdes</h1>
         <p>Experienced Software Engineer</p>
     </header>
